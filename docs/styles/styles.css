@@ -4,6 +4,8 @@
 :root{
     --bgl-c1:#6C63FF;
     --bgl-c2: #50C9CE;
+    --bgl-c3: black;
+
 }
 
 
@@ -19,6 +21,9 @@
     z-index: 1;
 }
 body{
-    background-color: #6C63FF;
+    background-color: var(--bgl-c3);
 }
 
+main{
+    padding-bottom: 400px; /* Espaço para o footer não cobrir conteúdo */
+}

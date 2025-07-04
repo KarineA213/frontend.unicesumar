@@ -1,8 +1,20 @@
 
-
-.hero{
-
-}
+:root{
+    --page-bg: #6C63FF;
+    --page-bg2: black ; /*cor do inicio da pagina, primeira do gradiente fixo*/
+    --grid-gap: 0.75rem;
+    --grid-margin: 1.5rem;
+    --text-color: white;
+    --h1-size: 1.75rem;
+    --h2-size: 1.5rem;
+    --button-padding-y:1rem;
+    --button-padding-x:2.25rem;
+    --btn-color: #50C9CE;
+    --section-distance: 25rem;
+    --section-distance-gap: 3.75rem;
+    --badge-color: white;
+    --second-color:#50C9CE;
+  }
 
 .hero-container{
 
@@ -31,9 +43,7 @@
 
 .h1-id{
     text-transform: lowercase;
-    color: #6C63FF;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--page-bg);
     font-family: Inter;
     font-size: 83.768px;
     font-style: normal;
@@ -45,7 +55,7 @@
 
 .h1-fy{
     text-transform: lowercase;
-    color: #50C9CE;
+    color: var(--second-color);
     font-family: Inter;
     font-size: 83.768px;
     font-style: normal;
@@ -73,7 +83,7 @@ padding: 62px;
 
 
 .trafego{
-color: #6C63FF;
+color: var(--page-bg);
 text-align: center;
 font-family: Inter;
 font-size: 120px;
