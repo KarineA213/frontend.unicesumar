@@ -1,4 +1,3 @@
-
 :root{
     --page-bg: #6C63FF;
     --page-bg2: black ; /*cor do inicio da pagina, primeira do gradiente fixo*/
@@ -31,13 +30,11 @@ main {
 
 footer{
     z-index: 1;
+    
 }
-.f-padding{
-    background: #343434;
-    padding-top: 50px;
-}
+
 .container{
-    width: 1140px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -51,7 +48,7 @@ h3{
     text-align: center;
 }
 .footer-content p{
-    width:190px;
+    width:300px;
     margin: auto;
     padding: 7px;
 }
@@ -134,11 +131,9 @@ p, h3{
         position: static;
     }
     
-    .bottom-bar{
-
-    }
 
     .bottom-bar p{
+
         font-size: 10px;
 
     }
@@ -146,5 +141,20 @@ p, h3{
     main{
         padding-bottom:16px;
     }
-    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem; /* espaço entre blocos */
+
+    }
+
+    .footer-content{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
 }
