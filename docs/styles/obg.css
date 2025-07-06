@@ -1,0 +1,14 @@
+
+.main-content h1, p{
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+
+    font-size: 40px;
+}
