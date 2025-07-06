@@ -3,7 +3,7 @@
 # Relatório Técnico: Análise do Frontend do Site Idea.fy
 
 ## 📌 Visão Geral
-Este repositório contém o projeto frontend do site Idea.fy, hospedado no GitHub Pages. O projeto foi desenvolvido como parte dos estudos da disciplina de Frontend, aplicando conceitos de design responsivo, arquitetura de projetos e tecnologias web modernas.
+Este repositório contém o projeto frontend do site Idea.fy, hospedado no GitHub Pages em "https://karinea213.github.io/frontend.unicesumar/". O projeto foi desenvolvido como parte dos estudos da disciplina de Frontend, aplicando conceitos de design responsivo, arquitetura de projetos e tecnologias web modernas.
 
 ## 🎨 Design
 - **Paleta de Cores**: Preta, branca, azul celeste e roxo berinjela
